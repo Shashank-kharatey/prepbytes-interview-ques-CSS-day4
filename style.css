@@ -1,0 +1,96 @@
+.masterhead {
+    background-image: url(./assets/pangong\ lake\ ladakh.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header img {
+    border: 10px solid black;
+    border-radius: 40px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+}
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 870px;
+    bottom: 120px;
+}
+button {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: brown;
+    color: yellow;
+}
+.center {
+    width: 25%;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(218, 155, 194);
+    margin: auto;
+}
+.center button {
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.center h1 {
+    text-align: center;
+}
+.center p {
+    text-align: center;
+}
+.Ans3 {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    text-align: center;
+}
+@media only screen and (min-width:320px) and (max-width:700px) {
+    .Ans3 {
+        flex-direction: column;
+    }
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Ans4 {
+        flex-direction: column;
+    }
+    .Ans4 button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+.Ans4 {
+    height: auto;
+    width: 240px;
+    position: relative;
+    left: 70%;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.Ans4 button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(5, 151, 5);
+    color: rgb(255, 255, 0);
+}
